@@ -24,11 +24,11 @@ close $ntrace
 close $namfile
 
 #Execute the nam animation file
-exec nam prog2.nam &
+exec nam pgm10b.nam &
 
 #Find the number of ping packets dropped
 puts "The number of ping packets dropped are "
-exec grep "^d" prog2.tr | cut -d " " -f 5 | grep -c "ping" &
+exec grep "^d" pgm10b.tr | cut -d " " -f 5 | grep -c "ping" &
 exit 0
 }
 
