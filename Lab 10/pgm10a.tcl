@@ -15,10 +15,10 @@ $ns flush-trace
 close $ntrace
 close $namfile
 #Execute the nam animation file
-exec nam prog1.nam &
+exec nam pgm10a.nam &
 #Show the number of packets dropped
 exec echo "The number of packet drops is " &
-exec grep -c "^d" prog1.tr &
+exec grep -c "^d" pgm10a.tr &
 exit 0
 }
 #Create 3 nodes
