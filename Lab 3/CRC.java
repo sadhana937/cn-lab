@@ -27,7 +27,10 @@ public class CRC {
                 for(int j = 0; j < divisor.length; j++)
                     data[i + j] ^= divisor[j];
         }
-
+        
+        for (int i = 0; i < message.length(); i++)
+            data[i] = Integer.parseInt(message.charAt(i) + "");
+        
         System.out.println("The checksum code is:");
         for (int i = 0; i < message.length(); i++)
             System.out.print(data[i]);
