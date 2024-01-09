@@ -1,11 +1,9 @@
 // Write a program for simple RSA algorithm to encrypt and decrypt the data.
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.math.BigInteger;
-import java.nio.charset.StandardCharsets;
-import java.util.Random;
+import java.io.*;
+import java.math.*;
+import java.util.*;
+import java.nio.charset.*;
 
 public class RSA {
     private BigInteger p, q, N, phi, e, d;
