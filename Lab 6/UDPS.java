@@ -5,7 +5,7 @@ import java.net.*;
 
 class UDPS {
     public static void main(String args[]) throws Exception {
-        DatagramSocket serverSocket = new DatagramSocket(9876);
+        DatagramSocket serverSocket = new DatagramSocket(9000);
         System.out.println("Server is Ready for the client");
         byte[] receiveData = new byte[1024];
         byte[] sendData = new byte[1024];
