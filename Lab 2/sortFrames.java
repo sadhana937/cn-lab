@@ -1,10 +1,6 @@
 // Program to sort frames using appropriate sorting techniques
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class sortFrames{
     public static void main(String[] args){
